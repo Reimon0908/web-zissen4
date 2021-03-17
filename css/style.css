@@ -489,3 +489,48 @@ body {
   text-align: center;
   color: #fff;
 }
+@media screen and (max-width:768px){
+ #humburger{
+  width:40px;
+  height:40px;
+  position:absolute;
+  cursor:pointer;
+  z-index:100;
+  top:15px;
+  right:20px;
+  transition:0.4s;
+ }
+ #hamburger span{
+  position:absolute;
+  left:2px;
+  display:block;
+  width:35px;
+  height:2px;
+  background-color:white;
+  transition:0.8s;
+ }
+ #hamuburger span:nth-of-type(1){
+  top:10px;
+
+ }
+ #hamburger span:nth-of-type(2){
+  top:20px;
+
+ }
+ #hamburger span:nth-of-type(3){
+  top:30px;
+ }
+ .header-nav{
+  display:none;
+
+ }
+ .catchcopy{
+  text-align: center;
+ }
+ .news-flex{
+  width:100%;
+ }
+
+
+
+}
