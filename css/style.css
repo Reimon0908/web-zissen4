@@ -231,7 +231,7 @@ body {
 /*------------------------*/
 /*         header         */
 /*------------------------*/
-#top-header {
+.top-header {
   height: 70px;
   line-height: 70px;
   background: rgba(0, 0, 0, 1);
@@ -490,7 +490,7 @@ body {
   color: #fff;
 }
 @media screen and (max-width:768px){
- #humburger{
+ .humburger{
   width:40px;
   height:40px;
   position:absolute;
@@ -500,25 +500,25 @@ body {
   right:20px;
   transition:0.4s;
  }
- #hamburger span{
+ .hamburger span{
   position:absolute;
-  left:2px;
+  left:85%;
   display:block;
   width:35px;
   height:2px;
   background-color:white;
   transition:0.8s;
  }
- #hamuburger span:nth-of-type(1){
-  top:10px;
-
- }
- #hamburger span:nth-of-type(2){
+ .hamburger span:nth-of-type(1){
   top:20px;
 
  }
- #hamburger span:nth-of-type(3){
+ .hamburger span:nth-of-type(2){
   top:30px;
+
+ }
+ .hamburger span:nth-of-type(3){
+  top:40px;
  }
  .header-nav{
   display:none;
